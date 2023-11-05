@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+}
+
+/*HEADER*/
+
+.logo {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 5% 0 0 5%;
+    font-size: 170%;
+    line-height: 75%;
+    font-weight: 800;
+    color: rgb(255, 243, 210);
+}
+
+.headerLinks {
+    position: absolute;
+    top: 45%;
+    left: 13%;
+    font-size: 220%;
+    font-weight: 600;
+    line-height: 160%;
+    color: rgb(255, 230, 161);
+    text-decoration: underline;
+}
+
+/*MAIN*/
+
+.mainImgDiv {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mainImgDiv img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr
+}
+
+.rowTypeEven {
+    display: grid;
+    height: 50vh;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr
+}
+
+.rowTypeUneven1 {
+    display: grid;
+    height: 40vh;
+    width: 100vw;
+    grid-template-columns: 65% 35%
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*FOOTER*/
+
+footer {
+    height: 20vh;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.footerLinks {
+    color: white;
+    position: absolute;
+    top: 26%;
+    left: 14%;
+    line-height: 150%;
+    font-size: 100%;
+}
+
+.instaIcon {
+    position: absolute;
+    bottom: 35%;
+    right: 6%;
+    height: 35%;
+}
+
+.instaIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
