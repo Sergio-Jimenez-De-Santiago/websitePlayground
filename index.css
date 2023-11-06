@@ -67,14 +67,14 @@ body {
 
 .rowTypeEven {
     display: grid;
-    height: 50vh;
+    height: 65vh;
     width: 100vw;
     grid-template-columns: 1fr 1fr
 }
 
 .rowTypeUneven1 {
     display: grid;
-    height: 40vh;
+    height: 55vh;
     width: 100vw;
     grid-template-columns: 65% 35%
 }
