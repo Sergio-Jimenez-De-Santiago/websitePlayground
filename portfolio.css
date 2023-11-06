@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+}
+
+body {
+    width: 100%; /* Set a fixed width for the body */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/*HEADER*/
+
+.logo {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 5% 0 0 5%;
+    font-size: 170%;
+    line-height: 75%;
+    font-weight: 800;
+    color: rgb(255, 243, 210);
+}
+
+/*MAIN*/
+
+.grid {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr
+}
+
+.rowTypeEven {
+    display: grid;
+    height: 50vh;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr
+}
+
+.rowTypeUneven1 {
+    display: grid;
+    height: 40vh;
+    width: 100vw;
+    grid-template-columns: 65% 35%
+}
+
+.rowTypeUneven1 {
+    display: grid;
+    height: 40vh;
+    width: 100vw;
+    grid-template-columns: 30% 70%
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*FOOTER*/
+
+footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer {
+    height: 20vh;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.footerLinks {
+    color: white;
+    position: absolute;
+    top: 26%;
+    left: 14%;
+    line-height: 150%;
+    font-size: 100%;
+}
+
+.instaIcon {
+    position: absolute;
+    bottom: 35%;
+    right: 6%;
+    height: 35%;
+}
+
+.instaIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
