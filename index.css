@@ -2,6 +2,20 @@
     margin: 0px;
 }
 
+a:visited {
+    text-decoration: none;
+    color: rgb(255, 230, 161);
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(255, 230, 161);
+}
+
+a:hover {
+    color: rgb(255, 230, 161);
+}
+
 /*HEADER*/
 
 .logo {
@@ -67,6 +81,20 @@
 }
 
 /*FOOTER*/
+
+footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
 
 footer {
     height: 20vh;
