@@ -16,7 +16,16 @@ a:hover {
     color: rgb(255, 230, 161);
 }
 
+body {
+    width: 100%; /* Set a fixed width for the body */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 /*HEADER*/
+
+.logoLink {
+    
+}
 
 .logo {
     z-index: 10;
