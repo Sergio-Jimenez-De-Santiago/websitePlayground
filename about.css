@@ -25,7 +25,7 @@ body {
 
 .logo {
     z-index: 10;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     margin: 5% 0 0 5%;
@@ -39,7 +39,7 @@ body {
     position: absolute;
     top: 2%;
     right: 3%;
-    font-size: 88%;
+    font-size: 80%;
     font-weight: 600;
     line-height: 160%;
     color: rgb(255, 243, 210);
@@ -63,9 +63,9 @@ body {
     top: 50%; /* Center vertically by setting it to 50% of the parent's height */
     left: 50%; /* Center horizontally by setting it to 50% of the parent's width */
     transform: translate(-50%, -50%); /* Move the element up and left by 50% of its own width and height */
-    font-size: 500%;
+    font-size: 400%;
     font-weight: 800;
-    color: rgb(255, 222, 130);
+    color: rgb(254, 226, 148);
 }
 
 .aboutImg {
@@ -94,7 +94,7 @@ body {
 }
 
 .text {
-    font-size: 130%;
+    font-size: 110%;
     font-weight: 600;
     text-align: center;
     display: flex;
@@ -111,7 +111,7 @@ body {
 
 .rowTypeEven {
     display: grid;
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
     grid-template-columns: 1fr 1fr
 }
